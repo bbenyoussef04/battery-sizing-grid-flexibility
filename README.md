@@ -22,15 +22,17 @@ The device count is scaled from the 2030 baseline (3 BESS, 10 PV) to 6 BESS and 
 - `1001-1_0_3_grid.xlsx`: grid model
 - `BESS_allocation_LV.xlsx`: BESS allocation
 - `LV_P_installed.csv`: installed PV capacity per node
+- `LV_generation.csv`: PV generation profiles per node (not included, see Data)
 - `environment.yml`: conda environment
-- `FFOR_*.png`, `ffor_area_soc_bounds.png`: saved figures
 
 ## Data
 
-- Grid topology: Swiss-PDGs dataset (Oneto et al., 2025)
-- PV and BESS data: SwissDN-DERs dataset (Zapparoli et al., 2025)
+The BESS and PV data come from the SwissDN-DERs dataset (Zapparoli et al., 2025). To download `LV_generation.csv`:
 
-`LV_generation` and `LV_std` (~1.1 GB each) are not included because of their size. Download them from [Future Deployment and Flexibility of Distributed Energy Resources in the Distribution Grids of Switzerland](https://zenodo.org/records/16272961) and place them in the project folder before running the notebook.
+1. Open the [Future Deployment and Flexibility of Distributed Energy Resources in the Distribution Grids of Switzerland](https://zenodo.org/records/16272961) and go to `SwissDN_DERs/01_PV/2030/`.
+2. Download `LV_generation.csv` and place it in the project folder, next to `OiESProject.ipynb`. Keep the file name unchanged, because the notebook looks for it by name.
+
+The grid topology comes from the Swiss-PDGs dataset (Oneto et al., 2025). The grid files are under [Synthetic low- and medium-voltage distribution grid models for Switzerland](https://github.com/aeonetos/Swiss-PDGs/tree/v1.0/grids/pandapower_data/LV/Alps-Rural) in `grids/pandapower_data/LV/Alps-Rural/`.
 
 ## Installation
 
