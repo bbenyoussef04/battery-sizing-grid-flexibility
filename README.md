@@ -1,6 +1,8 @@
 # Strategic Battery Sizing to Maximise Grid Flexibility: The Doppelschwand Case Study
 
-Course project, Spring Semester 2026. Group: Benhallam Idriss, Ben Youssef Belkis, Cukic Tijana.
+Course project, Spring Semester 2026. 
+
+Group: Benhallam Idriss, Ben Youssef Belkis, Cukic Tijana.
 
 ## Overview
 
