@@ -1,6 +1,6 @@
 # Strategic Battery Sizing to Maximise Grid Flexibility: The Doppelschwand Case Study
 
-Course project for *Optimization in Energy Systems* at ETH Zurich, Power Systems Laboratory, Spring Semester 2026. Group: Benhallam Idriss, Ben Youssef Belkis, Cukic Tijana.
+Course project, Spring Semester 2026. Group: Benhallam Idriss, Ben Youssef Belkis, Cukic Tijana.
 
 ## Overview
 
@@ -43,10 +43,12 @@ conda activate swiss_grid
 
 Open `OiESProject.ipynb` in Jupyter and run all cells. Gurobi needs a valid licence. Free academic licences are available for ETH students.
 
-Key versions: Python 3.11, pandapower 3.4.0, numpy 1.26.4, pandas 2.3.3, gurobipy 13.0.1.
+Key versions: Python 3.10.20, pandapower 3.4.0, numpy 1.26.4, pandas 2.3.3, gurobipy 13.0.1.
 
 ## Team Contributions
 
+All three members worked on the model definition, constraints and interpretation of results. Individual responsibilities:
+
 - **Benhallam Idriss:** Scenario 1, SoC bounds
 - **Cukic Tijana:** Scenario 2, battery energy capacity
-- **Ben Youssef Belkis:** Scenario 3, inverter power limit, including the per-BESS upgrade ranking. Also model definition, constraints and interpretation of results.
+- **Ben Youssef Belkis:** Scenario 3, inverter power limit. 
