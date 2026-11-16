@@ -43,7 +43,7 @@ conda activate swiss_grid
 
 Open `OiESProject.ipynb` in Jupyter and run all cells. Gurobi needs a valid licence. Free academic licences are available for ETH students.
 
-Key versions: Python 3.11, pandapower 3.4.0, numpy 1.26.4, pandas 2.3.3, gurobipy 13.0.1.
+Key versions: Python 3.10.20, pandapower 3.4.0, numpy 1.26.4, pandas 2.3.3, gurobipy 13.0.1.
 
 ## Team Contributions
 
